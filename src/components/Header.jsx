@@ -64,9 +64,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-center hover:text-sky-700 underline decoration-wavy underline-offset-8">
-          MOVIES SHOWCASE
-        </div>
+        <div className="navbar-center hover:text-sky-700">MOVIES SHOWCASE</div>
         <div className="navbar-end">
           <button className="btn btn-ghost btn-circle">
             <svg
