@@ -3,6 +3,7 @@ import "./App.css"
 import Cards from "./components/Cards"
 import Header from "./components/Header"
 import AppContext from "./AppContext"
+import Footer from "./components/Footer"
 
 function App() {
   const [mode, setMode] = useState("dark")
@@ -17,6 +18,7 @@ function App() {
         <div className="page">
           <Cards />
         </div>
+        <Footer />
       </main>
     </AppContext.Provider>
   )
